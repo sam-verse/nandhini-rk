@@ -59,7 +59,7 @@ export function Hero() {
             </a>
 
             <a
-              href="mailto:nandhinirk.22cse@kongu.edu"
+              href="mailto:nandhiniramachandrank@gmail.com"
               className="flex items-center gap-2 px-8 py-4 bg-white text-gray-800 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 border-2 border-gray-200 hover:border-blue-400"
             >
               <Mail className="w-5 h-5 text-purple-600" />

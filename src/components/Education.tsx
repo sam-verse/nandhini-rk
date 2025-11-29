@@ -13,7 +13,7 @@ const education = [
   {
     degree: 'Higher Secondary Education',
     field: 'Science Stream',
-    institution: 'Previous Institution',
+    institution: 'Velammal Vidhyashram, Surapet',
     location: 'Tamil Nadu',
     period: '2020 - 2022',
     description: 'Completed higher secondary education with focus on mathematics and computer science.',

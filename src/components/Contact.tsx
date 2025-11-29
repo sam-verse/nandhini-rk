@@ -38,7 +38,7 @@ export function Contact() {
 
               <div className="space-y-4">
                 <a
-                  href="mailto:nandhinirk.22cse@kongu.edu"
+                  href="mailto:nandhiniramachandrank@gmail.com"
                   className="flex items-center gap-4 p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl hover:shadow-md transition-all group"
                 >
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -46,7 +46,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-600 font-medium">Email</p>
-                    <p className="text-gray-800 font-semibold">nandhinirk.22cse@kongu.edu</p>
+                    <p className="text-gray-800 font-semibold">nandhiniramachandrank@gmail.com</p>
                   </div>
                 </a>
 

@@ -21,7 +21,7 @@ const achievements = [
   },
   {
     title: 'Event Management',
-    description: 'Successfully hosted multiple college events',
+    description: 'Coordinated Resonance’25, an inter college tech festival \nCore team of Walkalong 2025, an inclusivity walk organised by Yi Chennai',
     icon: Star,
     color: 'from-green-500 to-teal-500'
   }
