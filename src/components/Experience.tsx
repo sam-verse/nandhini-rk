@@ -16,10 +16,10 @@ const experiences = [
     highlights: ['Public Relations', 'Event Marketing', 'Community Building']
   },
   {
-    title: 'Board Member',
+    title: 'Board Member - Communications',
     organization: 'Yi Yuva REC',
     period: '2023 - 2024',
-    description: 'Contributed to strategic planning and organizational development as a key board member.',
+    description: 'Conceptualised and hosted, Kutty story S1 and S2, a podcast that focused on the student emotions, experience and life as a whole.',
     highlights: ['Strategic Planning', 'Organizational Development', 'Decision Making']
   },
   {
