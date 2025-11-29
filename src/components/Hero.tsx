@@ -15,7 +15,7 @@ export function Hero() {
     link.click();
     document.body.removeChild(link);
   };
-
+ 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-white via-blue-50 to-purple-50 overflow-hidden">
       <div className="absolute inset-0 opacity-20">
