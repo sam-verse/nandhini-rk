@@ -1,8 +1,19 @@
 import { ArrowRight, Download, Mail, Linkedin } from 'lucide-react';
+import profileImg from '../Public/profile.png';
+import resumeFile from '../Public/resumegeneral.pdf';
 
 export function Hero() {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resumeFile;
+    link.download = 'Nandhini_RK_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -15,11 +26,17 @@ export function Hero() {
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <div className="backdrop-blur-sm bg-white/30 rounded-3xl p-12 shadow-2xl border border-white/50">
+
           <div className="inline-block mb-6 px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full text-sm font-medium">
             Yi Yuva Champion | Project Management | Data Visualization
           </div>
+          <img 
+            src={profileImg}
+            alt="Nandhini RK" 
+            className="w-50 h-60 md:w-60 md:h-60 rounded-xl mx-auto mb-8 object-cover border-4 border-white shadow-lg"
+          />
 
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-fade-in">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-fade-in">
             Nandhini R K
           </h1>
 
@@ -40,13 +57,13 @@ export function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
 
-            <a
-              href="#resume"
+            <button
+              onClick={downloadResume}
               className="flex items-center gap-2 px-8 py-4 bg-white text-gray-800 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 border-2 border-gray-200 hover:border-blue-400"
             >
               <Download className="w-5 h-5" />
               View Resume
-            </a>
+            </button>
 
             <a
               href="https://www.linkedin.com/in/nandhini-r-k-28172827a/"
