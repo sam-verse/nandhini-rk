@@ -26,7 +26,7 @@ const experiences = [
     title: 'Event Host & Emcee',
     organization: 'Recharge 2024 & 2025',
     period: '2024 - 2025',
-    description: 'Hosted major college events, engaging audiences and ensuring smooth event flow.',
+    description: 'Hosted Recharge 24 and 25, the national level inter collegiate cultural fest organised by REC.',
     highlights: ['Public Speaking', 'Audience Engagement', 'Event Management']
   }
 ];
