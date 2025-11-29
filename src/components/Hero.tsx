@@ -1,6 +1,6 @@
 import { ArrowRight, Download, Mail, Linkedin } from 'lucide-react';
-import profileImg from '../Public/profile.png';
-import resumeFile from '../Public/resumegeneral.pdf';
+import profileImg from '../public/profile.png';
+import resumeFile from '../public/resumegeneral.pdf';
 
 export function Hero() {
   const scrollToSection = (id: string) => {
