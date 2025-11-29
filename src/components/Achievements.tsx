@@ -15,7 +15,7 @@ const achievements = [
   },
   {
     title: 'LinkedIn Learning',
-    description: 'Multiple certifications in professional development',
+    description: 'Certified in Mastering Leadership Effectiveness skills and Developing a Competitive strategy',
     icon: GraduationCap,
     color: 'from-purple-500 to-pink-500'
   },
