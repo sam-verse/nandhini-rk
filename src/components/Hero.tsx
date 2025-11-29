@@ -2,6 +2,7 @@ import { ArrowRight, Download, Mail, Linkedin } from 'lucide-react';
 import profileImg from '../public/profile.png';
 import resumeFile from '../public/resumegeneral.pdf';
 
+// Hero component for portfolio
 export function Hero() {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
